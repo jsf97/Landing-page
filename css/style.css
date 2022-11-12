@@ -4,6 +4,12 @@
   box-sizing: border-box;
   font-family: Roboto, sans-serif;}
 
+header {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -27,6 +33,7 @@ nav a {
 }
 
 .header__content {
+  padding-top: 30px;
   display: flex;
   width: 80%;
   margin: auto;
@@ -35,7 +42,6 @@ nav a {
 .header__content--text, .header__content--image {
   width: 450px;
   height: 250px;
-  border: 1px solid red;
 }
 
 .content__title {
